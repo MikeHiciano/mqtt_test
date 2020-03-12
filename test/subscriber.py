@@ -6,7 +6,7 @@ GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(17,GPIO.OUT)
 
-broker_address = "10.0.0.13"
+broker_address = "localhost"
 broker_port = 1883
 topic = 'sum_topic'
 
